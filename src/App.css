@@ -191,3 +191,19 @@ select {
   transform: scale(1.5);
 }
 */
+
+@media screen and (min-width: 375px) and (max-width: 658px){
+  .heading h1{
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  h3{
+    font-size: 10px;
+  }
+
+  form{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+}
